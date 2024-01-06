@@ -9,6 +9,7 @@
   justify-content: start;
   font-family: "Rubik Glitch", system-ui;
   font-family: "Rubik Maps", system-ui;
+  z-index: 999;
 }
 .topCenter {
   flex: 6;
@@ -47,6 +48,7 @@
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 .topSearchIcon {
   font-size: 18px;
