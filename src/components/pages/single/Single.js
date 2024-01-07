@@ -1,8 +1,13 @@
-import "./single.css"
+import SinglePost from "../../singlePost/SinglePost";
+import SlideBar from './../../SlideBar/Sidebar';
+import "./single.css";
 
 const Single = () => {
   return (
-    <div>Single</div>
+    <div className="single">
+      <SinglePost/>
+      <SlideBar/>
+    </div>
   )
 }
 

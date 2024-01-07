@@ -1,13 +1,14 @@
 import React from 'react'
 import TopBar from './components/TopBar/TopBar'
-import Home from './components/pages/Home/Home'
+import Write from './components/pages/write/Write'
+import Settings from './components/pages/Settings/Settings'
 
 
 const App = () => {
   return (
     <div>
       <TopBar/>
-      <Home/> 
+      <Settings/> 
     </div>
   )
 }

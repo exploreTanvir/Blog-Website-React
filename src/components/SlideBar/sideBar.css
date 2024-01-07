@@ -2,11 +2,16 @@
   flex: 3;
   margin: 20px;
   padding-bottom: 30px;
-  border-radius: 10px;
+  border-radius: 3px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Roboto", sans-serif;
+  background: #fafafa;
+  border: 0.1px solid rgb(219, 219, 219);
+}
+.sideBar:hover {
+  background: #f1f1f1;
 }
 .sideBarItem {
   display: flex;
