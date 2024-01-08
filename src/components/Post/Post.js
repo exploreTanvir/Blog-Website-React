@@ -1,8 +1,14 @@
+import postImg from "../Asset/image/singlePost.jpeg"
 import "./post.css"
 
 const Post = () => {
   return (
-    <div className="post">     
+    <div className="post"> 
+     <img
+        className="postImg"
+        src={postImg}
+        alt=""
+      />    
         <div className="postInfo">
             <div className="postCats">
                 <span className="postCat">Music</span>
